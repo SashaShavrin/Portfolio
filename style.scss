@@ -543,12 +543,11 @@ h2 {
                 width: 500px;
                 z-index: 3;
                 background-size: 50.5%;
-                background-repeat-y: no-repeat;
                 margin: 15% auto;
                 @include breakpoint (sm) {
                    width: 100%;
                    background-size: 100%;
-                   height: 100vh;
+                   height: 75vh;
                 }
             }
             &-nextsection {
