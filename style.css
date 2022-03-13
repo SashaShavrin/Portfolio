@@ -801,7 +801,7 @@ h2 {
   width: 500px;
   z-index: 3;
   background-size: 50.5%;
-  background-repeat-y: no-repeat;
+  background-repeat: no-repeat;
   margin: 15% auto;
 }
 
