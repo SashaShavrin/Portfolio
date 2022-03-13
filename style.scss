@@ -567,9 +567,9 @@ h2 {
                     height: 152vh;
                 }
                 @include breakpoint (sm) {
-                    width: 106%;
+                    width: 100%;
                     margin-left: -1%;
-                    height: 155vh;
+                    height: 156vh;
                 }
             }
             &-secondsection {
