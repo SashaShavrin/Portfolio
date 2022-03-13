@@ -1,0 +1,227 @@
+.direction-reveal [class*='swing--'] .direction-reveal__overlay {
+  -webkit-transform: rotate3d(0, 0, 0, 0);
+          transform: rotate3d(0, 0, 0, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.slide--in-top .direction-reveal__overlay {
+  -webkit-animation-name: slide--in-top;
+          animation-name: slide--in-top;
+}
+
+.slide--in-bottom .direction-reveal__overlay {
+  -webkit-animation-name: slide--in-bottom;
+          animation-name: slide--in-bottom;
+}
+
+.slide--in-left .direction-reveal__overlay {
+  -webkit-animation-name: slide--in-left;
+          animation-name: slide--in-left;
+}
+
+.slide--in-right .direction-reveal__overlay {
+  -webkit-animation-name: slide--in-right;
+          animation-name: slide--in-right;
+}
+
+.slide--out-top .direction-reveal__overlay {
+  -webkit-animation-name: slide--out-top;
+          animation-name: slide--out-top;
+}
+
+.slide--out-bottom .direction-reveal__overlay {
+  -webkit-animation-name: slide--out-bottom;
+          animation-name: slide--out-bottom;
+}
+
+.slide--out-left .direction-reveal__overlay {
+  -webkit-animation-name: slide--out-left;
+          animation-name: slide--out-left;
+}
+
+.slide--out-right .direction-reveal__overlay {
+  -webkit-animation-name: slide--out-right;
+          animation-name: slide--out-right;
+}
+
+.direction-reveal [class*='slide--'] .direction-reveal__overlay {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+
+@keyframes slide--in-top {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+@-webkit-keyframes slide--out-top {
+  100% {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes slide--out-top {
+  100% {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+
+@-webkit-keyframes slide--in-bottom {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes slide--in-bottom {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@-webkit-keyframes slide--out-bottom {
+  100% {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes slide--out-bottom {
+  100% {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@-webkit-keyframes slide--in-left {
+  0% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes slide--in-left {
+  0% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@-webkit-keyframes slide--out-left {
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes slide--out-left {
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@-webkit-keyframes slide--in-right {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes slide--in-right {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+@-webkit-keyframes slide--out-right {
+  100% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes slide--out-right {
+  100% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+.rotate--in-top .direction-reveal__overlay {
+  -webkit-animation-name: rotate--in-top;
+          animation-name: rotate--in-top;
+}
+
+.rotate--in-bottom .direction-reveal__overlay {
+  -webkit-animation-name: rotate--in-bottom;
+          animation-name: rotate--in-bottom;
+}
+
+.rotate--in-left .direction-reveal__overlay {
+  -webkit-animation-name: rotate--in-left;
+          animation-name: rotate--in-left;
+}
+
+.rotate--in-right .direction-reveal__overlay {
+  -webkit-animation-name: rotate--in-right;
+          animation-name: rotate--in-right;
+}
+
+.rotate--out-top .direction-reveal__overlay {
+  -webkit-animation-name: rotate--out-top;
+          animation-name: rotate--out-top;
+}
+
+.rotate--out-bottom .direction-reveal__overlay {
+  -webkit-animation-name: rotate--out-bottom;
+          animation-name: rotate--out-bottom;
+}
+
+.rotate--out-left .direction-reveal__overlay {
+  -webkit-animation-name: rotate--out-left;
+          animation-name: rotate--out-left;
+}
+
+.rotate--out-right .direction-reveal__overlay {
+  -webkit-animation-name: rotate--out-right;
+          animation-name: rotate--out-right;
+}
+
+.direction-reveal [class*='rotate--'] .direction-reveal__overlay {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.rotate--in-top .direction-reveal__overlay, .rotate--out-top .direction-reveal__overlay {
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+}
+
+.rotate--in-bottom .direction-reveal__overlay, .rotate--out-bottom .direction-reveal__overlay {
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
+
+.rotate--in-left .direction-reveal__overlay, .rotate--out-left .direction-reveal__overlay {
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+}
+
+.rotate--in-right .direction-reveal__overlay, .rotate--out-right .direction-reveal__overlay {
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
