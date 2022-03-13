@@ -1,7 +1,3 @@
-* {
-  outline: 1px solid blueviolet;
-}
-
 body {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   color: black;
@@ -574,7 +570,7 @@ h2 {
 }
 
 .work-two-background {
-  background: url(./img/fon_webivio.jpg) no-repeat;
+  background: url(img/fon_webivio.jpg) no-repeat;
   margin: 0 5%;
 }
 
@@ -787,7 +783,7 @@ h2 {
 }
 
 .work-four-box-headervideo {
-  background: url(./img/privet1.PNG);
+  background: url(img/privet1.PNG);
   height: 50vh;
   position: relative;
   width: 500px;
@@ -804,7 +800,7 @@ h2 {
 }
 
 .work-four-box-nextsection {
-  background: url(./img/privet3.PNG) center/cover;
+  background: url(img/privet3.PNG) center/cover;
   height: 134vh;
   margin-top: -98vh;
   position: -webkit-sticky;
@@ -851,7 +847,7 @@ h2 {
 }
 
 .work-four-box-secondsection {
-  background: url(./img/privet2.PNG) center/cover;
+  background: url(img/privet2.PNG) center/cover;
   height: 70vh;
   margin-top: -35vh;
   position: -webkit-sticky;
