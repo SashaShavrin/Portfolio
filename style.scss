@@ -1,5 +1,3 @@
-* {outline: 1px solid blueviolet;}
-
 @mixin breakpoint($point) {
         @if $point == lg {
             @media (max-width: 992px){@content;}  
@@ -391,7 +389,7 @@ h2 {
         }
         }
         &-background {
-            background: url(./img/fon_webivio.jpg) no-repeat;
+            background: url(img/fon_webivio.jpg) no-repeat;
             margin: 0 5%;
             @include breakpoint (xl) {
                 margin: 0;
@@ -529,7 +527,7 @@ h2 {
                 }
             }
             &-headervideo{
-                background: url(./img/privet1.PNG);
+                background: url(img/privet1.PNG);
                 height: 50vh;
                 position: relative;
                 width: 500px;
@@ -542,7 +540,7 @@ h2 {
                 }
             }
             &-nextsection {
-                background: url(./img/privet3.PNG) center/cover;
+                background: url(img/privet3.PNG) center/cover;
                 height: 134vh;
                 margin-top: -98vh;
                 position: sticky;
@@ -575,7 +573,7 @@ h2 {
                 }
             }
             &-secondsection {
-                background: url(./img/privet2.PNG) center/cover;
+                background: url(img/privet2.PNG) center/cover;
                 height: 70vh;
                 margin-top: -35vh;
                 position: sticky;
