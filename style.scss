@@ -869,6 +869,10 @@ h2 {
                     border-radius: 50px;
                 }
             }
+            &-img:hover {
+                opacity: 0.5;
+            }
+    
             &-site {
                 text-decoration: none;
                 font-weight: 700;
@@ -879,6 +883,9 @@ h2 {
                     padding: 5px 10px;
                     border-radius: 50px;
                 }
+            }
+            &-site:hover {
+                opacity: 0.5;
             }
         }
     }
