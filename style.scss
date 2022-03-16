@@ -516,7 +516,7 @@ h2 {
             }
         }
         &-box {
-            height: 168vh;
+            height: 154vh;
             @include breakpoint (lg) {
                 height: 174vh;
             }
@@ -585,8 +585,8 @@ h2 {
             }
             &-secondsection {
                 background: url(img/privet2.png) center/cover;
-                height: 75vh;
-                margin-top: -35vh;
+                height: 85vh;
+                margin-top: -62vh;
                 position: sticky;
                 top: 0;
                 z-index: 2;
