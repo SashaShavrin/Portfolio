@@ -759,7 +759,7 @@ h2 {
 }
 
 .work-four-box {
-  height: 144vh;
+  height: 168vh;
 }
 
 @media (max-width: 992px) {
@@ -815,8 +815,8 @@ h2 {
 
 .work-four-box-nextsection {
   background: url(img/privet3.png) center/cover;
-  height: 140vh;
-  margin-top: -98vh;
+  height: 160vh;
+  margin-top: -96vh;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -862,7 +862,7 @@ h2 {
 
 .work-four-box-secondsection {
   background: url(img/privet2.png) center/cover;
-  height: 70vh;
+  height: 75vh;
   margin-top: -35vh;
   position: -webkit-sticky;
   position: sticky;
