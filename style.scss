@@ -172,7 +172,7 @@ body {
     height: 75vh;
     color: rgb(221, 221, 221);
     @include breakpoint (md) {
-        height: 90vh;
+        height: 768px;
    }
     &__name {
         display: flex;
