@@ -450,7 +450,7 @@ h3 {
            }
        }
         &-background {
-            background: url(./img/fon_webivio.jpg) no-repeat;
+            background: url(img/fon_webivio.jpg) no-repeat;
             max-width: 1200px;
             width: 100%;
             margin: 0 auto;
@@ -606,7 +606,7 @@ h3 {
                }
            }
             &-headervideo{
-                background: url(./img/privet1.jpg);
+                background: url(img/privet1.jpg);
                 height: 50vh;
                 position: relative;
                 width: 500px;
@@ -620,7 +620,7 @@ h3 {
                }
            }
             &-nextsection {
-                background: url(./img/privet3.png) center/cover;
+                background: url(img/privet3.png) center/cover;
                 height: 160vh;
                 margin-top: -96vh;
                 position: sticky;
@@ -653,7 +653,7 @@ h3 {
                }
            }
             &-secondsection {
-                background: url(./img/privet2.png) center/cover;
+                background: url(img/privet2.png) center/cover;
                 height: 85vh;
                 margin-top: -62vh;
                 position: sticky;
