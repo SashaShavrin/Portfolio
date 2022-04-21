@@ -751,6 +751,28 @@ h3 {
   }
 }
 
+.work-two-promo {
+  height: 550px;
+  padding: 5% 10%;
+}
+
+@media (max-width: 576px) {
+  .work-two-promo {
+    padding: 0;
+  }
+}
+
+.work-three {
+  margin-top: 10%;
+}
+
+.work-three-text {
+  font-size: 26px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
 @media (max-width: 576px) {
   .work-three-text {
     margin-left: 5%;
@@ -961,7 +983,7 @@ h3 {
 }
 
 .work-four-box-headervideo {
-  background: url(img/privet1.jpg);
+  background: url(./img/privet1.jpg);
   height: 50vh;
   position: relative;
   width: 500px;
@@ -979,7 +1001,7 @@ h3 {
 }
 
 .work-four-box-nextsection {
-  background: url(img/privet3.png) center/cover;
+  background: url(./img/privet3.png) center/cover;
   height: 160vh;
   margin-top: -96vh;
   position: -webkit-sticky;
@@ -1026,7 +1048,7 @@ h3 {
 }
 
 .work-four-box-secondsection {
-  background: url(img/privet2.png) center/cover;
+  background: url(./img/privet2.png) center/cover;
   height: 85vh;
   margin-top: -62vh;
   position: -webkit-sticky;
