@@ -983,7 +983,7 @@ h3 {
 }
 
 .work-four-box-headervideo {
-  background: url(./img/privet1.jpg);
+  background: url(img/privet1.jpg);
   height: 50vh;
   position: relative;
   width: 500px;
@@ -1001,7 +1001,7 @@ h3 {
 }
 
 .work-four-box-nextsection {
-  background: url(./img/privet3.png) center/cover;
+  background: url(img/privet3.png) center/cover;
   height: 160vh;
   margin-top: -96vh;
   position: -webkit-sticky;
@@ -1048,7 +1048,7 @@ h3 {
 }
 
 .work-four-box-secondsection {
-  background: url(./img/privet2.png) center/cover;
+  background: url(img/privet2.png) center/cover;
   height: 85vh;
   margin-top: -62vh;
   position: -webkit-sticky;
